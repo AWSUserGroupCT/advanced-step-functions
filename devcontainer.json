@@ -1,0 +1,12 @@
+{
+    "name": "AWS SAM & CloudFormation Development",
+    "dockerFile": "Dockerfile",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "amazonwebservices.aws-toolkit-vscode"
+    ],
+    "postCreateCommand": "bash .devcontainer/post-create.sh",
+    "remoteUser": "vscode"
+}
